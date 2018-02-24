@@ -23,7 +23,9 @@ NGSHOW
 
 
 
-Web Development & Design			Angular 2 interview question
+Web Development & Design			
+Angular 2 interview question
+
 What is the difference between NGSHOW, NG HIDE NGIF directive?
 Continue……
 NGSHOW/NGHIDE
@@ -38,6 +40,8 @@ So we only need keep in mind what the difference these directive is, so deciding
 
 Web Development and Design
 AngularJS 2
+
+
     Architectural Overview:
 •	Component, Bootstrap, and the DOM
 •	Directive and pipes
@@ -72,9 +76,11 @@ Kayode. Me
 
 
 
-Web Development and Design	JavaScript Fundamental
+Web Development and Design	
+JavaScript Fundamental
 JavaScript Closures
-             JS variables can belong to the local or global private variables can be made possible with closures.
+
+JS variables can belong to the local or global private variables can be made possible with closures.
 
 Global Variables
 Function my function ()
@@ -131,7 +137,9 @@ This could have the counter dilemma, if we could reach the plus () function from
 
 
 WEB DECELOPMENT AND DESIGN
-	JAVASCRIPT FUNCTION CLOSURES
+
+JAVASCRIPT FUNCTION CLOSURES
+
 To get our function access to the counter we should create an IFFY or self-invoking functions.
 Recap a closure is a function having access to the parent scope even after the parent function has closed.
            Var add (function () {
@@ -212,7 +220,8 @@ Car parts= [{
 “price”: 4.99
 
 
-WEB DEVELOPMENT AND DESIGN
+
+
 Angular 2 Fundamentals
 The ways Data can Flow
 When using a web frame work like Angular, that abstracts your code from HTML, there are a few different ways that data can flow.
@@ -240,7 +249,10 @@ JavaScript to HTML
 </td
 
 
-Web Development & Design			Angular 2 Fundamentals
+Web Development & Design			
+Angular 2 Fundamentals
+
+
 Structural Directives
 	Bonus: Simplify a sum
 Just for fun lets go through ways we could simplify this code.
@@ -250,11 +262,8 @@ Just for fun lets go through ways we could simplify this code.
 
 
 
-
-
-                         Web Development and Design
-
-       Angular 2 Fundamentals					refactoring
+Web Development and Design
+Angular 2 Fundamentals	refactoring
 	
 Splitting out our components
 Main.ts NOT SCALABLE
