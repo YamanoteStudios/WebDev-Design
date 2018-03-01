@@ -1,0 +1,237 @@
+CSS transitions provide a way to control animation speed when changing CSS properties. Instead having property changes take effect immediately, to control animation speed when changing CSS properties. Instead having property changes take effect immediately, you can also cause the change to take place over a period of time or instantaneously.
+     With CSS transitions enabled, changing occur at time intervals that follow an acceleration curve, all of which can be customized.
+	HTML
+<Body>
+<P> The box below combine transitions for: width, height, background-color, transform on hover the box to see these properties animated.
+
+	CSS
+.box{
+	Border-style: solid;
+	Border-width: 1px;
+	Display: block;
+	Width: 100px;
+	Height: 100px;
+	Background-color: #0000FF;
+	Webkit-transition: width 2s, height 2s background-color 2s, webkit-transform 2s.
+	Transition: width 2s, height 2s background-color 2s, transform 2s.
+     }
+.box: hover {
+Background-color: #FFCCC;
+Width: 200
+Height:
+Webkit-transform: rotate (180deg) 
+Transform: rotate (180deg)
+
+                                                           WEB DESIGN & DEVELOPMENT
+                                                                          
+                                                                          
+                                                                          
+CSS properties used to define transitions sited: https://developer.mozilla.org
+CSS Transitions are controlled using the short hand Transition Property. This is the best way to configure transitions, as it makes it easier to avoid that, the length of the parameter list are out of Sync.
+Which can be very frustrating to have to spend lot of time debugging the CSS.
+
+    Transition-property
+   
+	Specifies the names or name of the CSS properties to which transitions should be applied. Only properties listed here are animated during transitions;
+All other properties occur instantaneous as usaual.
+
+
+      Transition-duration
+
+	Specifies the duration over which transitions should occur. You can specify a single duration that applies to all properties during the transition, or multiple value to allow each property transition over different period of time.
+
+
+Transition-delay
+
+	Define how long to wait between the time a property is changed and the transition actually begins.
+
+
+
+	
+                                                             Web Development & Design
+                                                                          
+                                                                          
+                                                                          
+        Angular JS 2/ materials
+                .done-button {padding: 9px; }
+                .done-container {top: 869px; }
+
+
+	For button-navigation should be used for
+  
+•	. 3-5 top level destinations of similar importance.
+•	Destinations requiring direct access from anywhere in the app.
+                  Warning:
+              When combining bottom navigation with tabs as combination may cause confusion when navigating app.
+	
+•	Become center aligned with increase widths.
+•	Remain left aligned while the right margin grows.
+•	Continue to grow while rending additional contact
+
+
+                          MD Material.io Bottom-navigation
+                          
+Bottom navigation bars make it easy to explore and switch top-level views in a single-tap.
+Bottom navigation is primary for use on mobile to achieve a  similar effect for desktop use side navigations.
+
+
+	
+                      Alternative Tabs {Scrollable Tabs}
+Tabs makes it easy to explore and switch between different views.
+
+Tabs create/enable content organization at a high level  such as switching between views data sets of  functional aspect of an app.
+
+
+
+
+                                                           Web Development & Design
+                                                                      
+                                                                      
+                                                                      
+          Materials Design
+                    Using {Scrollable Tabs}
+                    
+Scrollable tabs display a subset moment. They can contain larger to number of tabs than fixed tabs,
+
+Best Using For Browsing Contexts
+
+                            How to navigate
+                            
+To navigate between scrollable tabs, the content area left or right.
+To scroll tabs without navigating, swipe the tabs left or right.
+
+
+
+
+
+
+
+              Fixed Tabs Display
+              
+              
+              
+The width of each tab can be calculated by taking the width of the new an dividing it by the number of tabs. Alternatively, make all tabs the width the largest tabs.
+
+If margin between the tabs edge and view edge is 16dp or LESS, use full width tabs instead of center tabs.
+
+By using standard platform implementations you will review related future improvement.
+
+
+
+                                                       CSS 3: Using Pseudo-classes
+                                                                          
+                                                                          
+Pseudo-element and pseudo-classes can be used without assigning those element in the HTML.
+              
+                Targeting Specific Element with or without using 10s or classes
+                
+                
+Like attribute selectors, pseudo-classes and pseudo-elements can be used to select specific element in the HTML.
+With or without assigning those elements 10s or classes, keeping your markup cleaner.
+Pseudo-classes and pseudo-elements target pieces of HTML that either don’t exist as standalone element or do exist, but have unique characteristic that you can’t target with the other simple selectors.
+
+          
+Pseudo-classes	Description
+:root                                                             Selects the element that is the root of the document. In HTML, this is 
+                                                                      always the HTML element.
+
+
+
+
+
+
+
+
+:nth-child ()                                                  Select based on the position within the list of its parent’s children.
+
+
+
+
+
+
+
+:nth-last-child ()                                           Same as :nth-child (), but the counting for the position number is done
+                                                                       From the last child upward instead of the first child downward.
+
+
+
+
+
+
+
+:nth-of-type ()                                                Select based on position within the list of its parent children, but only                                                                     
+                                                                          counting children of certain type.                                                                                  
+
+
+
+
+
+:nth-last-of-type ()                                            Same as nth-of-type (), but counting from the last child of the specified 
+                                                                            Type instead of the first.
+
+
+
+
+
+
+                                       
+
+
+
+
+
+                                                          Web Design & Development
+                                                                                   
+                                                                                   
+
+                      HTML & CSS
+                            Class Selectors
+                            
+In CSS we use selectors to interact with our HTML, there are many different types of CSS selectors that allows you to target rules to specific elements in an HTML document.
+
+
+
+Class                                           matches an element whose class attribute has a value                         .note { }
+                                                     that matches the one Specified after the pen.                                          P.note { }
+
+
+10 selector                                  matches an element whose id attribute has a value that                         #introduction { }
+                                                      matches the one Specified after the pound or hash symbols.
+
+
+Child selector                              matches an element that is a direct child of another.                                 Li> a { }
+
+
+Descendant selector                    matches an elements that is a descendant of another                              p a { }
+                                                        Specified element (not just a direct child of that element).
+
+
+
+
+Universal selector                           applies to all element in the pages.                                                          * { }
+
+
+
+
+                                                        Web Design & Development
+                                                                                
+                                                                                
+                                                                                
+            HTML & CSS
+                    How CSS Rules cascade
+                    
+                   
+
+If there are two or more rules that apply to the same element, it is important to understand which will take precedence.
+
+        Last Rule
+        
+If one selector is more specific than the others, the more specific rule will take precedence over more general ones.
+P #intro p b                                          *p h1
+
+Most specific                                least specific
+
+
+          Important 
+          
+You can add important after any property value to indicate that it should be considered more important than other rules that apply to the same element.
